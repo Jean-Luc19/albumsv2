@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 class AlbumList extends Component {
 
   componentWillMount() {
-    console.log('component will mount')
+    console.log('component will mount');
   }
 
   render() {
