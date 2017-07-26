@@ -32,7 +32,7 @@ const AlbumDetail = ({ album }) => {
       </CardSection>
       <CardSection>
         <Button onPress={() => Linking.openURL(url)}>
-          Buy {title} 
+          Buy {title}
         </Button>
       </CardSection>
     </Card>
@@ -42,7 +42,6 @@ const AlbumDetail = ({ album }) => {
 
 const styles = {
   headerContentStyle: {
-    flexDirection: 'column',
     justifyContent: 'space-around'
   },
   headerTextStyle: {
